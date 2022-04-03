@@ -24,7 +24,7 @@ public struct XMLHeader {
         self.version = version
     }
     
-    init(version: Double?, encoding: String?, standalone: String? = nil) {
+    public init(version: Double?, encoding: String?, standalone: String? = nil) {
         self.version = version
         self.encoding = encoding
         self.standalone = standalone
